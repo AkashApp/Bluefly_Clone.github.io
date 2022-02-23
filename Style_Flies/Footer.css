@@ -1,0 +1,47 @@
+#Main_Foo_Div {
+  width: 100%;
+  background-color: rgb(212, 212, 212);
+  border: 1px solid rgb(212, 212, 212);
+  padding-bottom: 30px;
+}
+#Foo1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  gap: 70px;
+}
+#Foo1_div1 > p > a,
+#Foo1_div2 > p > a {
+  text-decoration: none;
+  color: black;
+}
+#Social_Acc > a > img {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 30px;
+}
+#Foo1_div3 {
+  margin-left: 70px;
+}
+#Foo1_div3 > input {
+  width: 250px;
+  height: 30px;
+}
+#Foo1_div3 > button {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  margin-top: 10px;
+  width: 258px;
+  height: 35px;
+  cursor: pointer;
+}
+#Foo2 > a > img {
+  width: 300px;
+  margin-top: 50px;
+}
+#Foo2 {
+  text-align: center;
+}

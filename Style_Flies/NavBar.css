@@ -1,0 +1,127 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: red;
+}
+#Header {
+  background-color: white;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+nav > p {
+  display: inline-flex;
+  padding: 18px;
+}
+nav > p > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+.SecNav {
+  background-color: white;
+  height: 400px;
+}
+.SecNav > ul > li {
+  float: left;
+  display: block;
+  padding-left: 48px;
+  position: relative;
+}
+.SecNav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.SecNav > ul > li > ul > li {
+  display: block;
+  padding-top: 8px;
+}
+.SecNav > ul > li > ul > li > a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+}
+#Home_Buttons {
+  display: inline-flex;
+  align-items: center;
+}
+.H_but {
+  width: 40px;
+  margin-right: 20px;
+}
+#Blue_Logo {
+  margin-left: 515px;
+  margin-right: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.search {
+  margin-left: -20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+#clearance {
+  width: 1365px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#clearance > a {
+  color: red;
+  text-decoration: none;
+}
+.hoverEff:hover {
+  border-bottom: 2px solid black;
+}
+#clearance:hover {
+  text-decoration-line: underline;
+}
+.SecNav {
+  display: none;
+}
+#Show_Shoes {
+  display: block;
+}
+#Hide_Shoes {
+  display: none;
+}
+#Fixed {
+  z-index: 2;
+  position: fixed;
+  background-color: white;
+  margin-top: -165px;
+}
+#Spacediv {
+  border: 0.5px solid white;
+  margin-top: 165px;
+}
+#Hide_Shoes,
+#Hide_Hand,
+#Hide_Design,
+#Hide_Women,
+#Hide_Men,
+#Hide_Glass,
+#Hide_Watch,
+#Hide_Under,
+#Hide_Beauty,
+#Hide_Clear {
+  display: none;
+}
+#Show_Shoes,
+#Show_Hand,
+#Show_Design,
+#Show_Women,
+#Show_Men,
+#Show_Glass,
+#Show_Watch,
+#Show_Under,
+#Show_Beauty,
+#Show_Clear {
+  display: block;
+}
