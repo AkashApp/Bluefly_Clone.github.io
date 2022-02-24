@@ -1,0 +1,53 @@
+#Up_Bar {
+  margin: 0%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#Input_Taking {
+  border-bottom: 1px solid rgb(226, 224, 224);
+  text-align: center;
+  margin-top: 50px;
+}
+#Input_Taking > h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.email_password {
+  width: 400px;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(226, 224, 224);
+  border-radius: 0%;
+  font-size: 24px;
+}
+.email_password:hover {
+  border: 1px solid rgb(109, 107, 107);
+  border-radius: 0%;
+}
+.Left_Side1 {
+  margin-left: -350px;
+  cursor: pointer;
+}
+.Left_Side2 {
+  cursor: pointer;
+}
+#forget {
+  margin-left: 200px;
+}
+#Input_Taking > div > button {
+  width: 406px;
+  height: 45px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+#Input_Taking > div > a {
+  text-decoration: none;
+  color: black;
+}
