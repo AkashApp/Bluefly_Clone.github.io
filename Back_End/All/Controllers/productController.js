@@ -44,11 +44,11 @@ router.get("", async(req,res)=>{
         if(req.query.product_condition){
             products= await Product.find({Product_Condition:{$eq: req.query.product_condition}}).lean().exec();
         }
-        if(req.query.price){
-            products= await Product.find({$and:[{Price:{$gte:req.query.price}},{Price:{$lte:req.query.price}}]}).lean().exec();
+        if((req.query.pricelow)&&(req.query.pricehigh)){
+            products= await Product.find({$and:[{Price:{$gte:req.query.pricelow}},{Price:{$lte:req.query.pricehigh}}]}).lean().exec();
         }
-        if(req.query.discount){
-            products= await Product.find({$and:[{Discount:{$gte:req.query.discount}},{Discount:{$lte:req.query.discount}}]}).lean().exec();
+        if((req.query.discountlow)&&(req.query.discounthigh)){
+            products= await Product.find({$and:[{Discount:{$gte:req.query.discountlow}},{Discount:{$lte:req.query.discounthigh}}]}).lean().exec();
         }
         if(req.query.tag){
             products= await Product.find({Tag:{$eq: req.query.tag}}).lean().exec();
