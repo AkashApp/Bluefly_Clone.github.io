@@ -466,6 +466,13 @@ function Product_show(prod_data,index){
 
         Div.append(Img,brand,description,Text_Div);
 
+        Div.addEventListener("click", ()=>{
+            JSON.stringify(localStorage.setItem("Prod_Id", prod._id));
+             window.location.href=`../HTML_Files/Single_Product_Page.html`;
+        });
+
+        // console.log(prod._id);
+
         Products_Div.append(Div);
     });
 }

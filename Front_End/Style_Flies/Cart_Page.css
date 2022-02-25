@@ -1,0 +1,39 @@
+#Cart_Main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+}
+#Cart_Main > div {
+  width: 250px;
+  border: 1px solid black;
+}
+#Cart_Main > div > img {
+  width: 100%;
+}
+.Price-line {
+  font-size: 20px;
+  text-decoration-line: line-through;
+}
+.Red_Text {
+  font-size: 20px;
+  color: red;
+}
+.margin {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#CheckOut {
+  margin-top: 50px;
+  text-align: center;
+}
+#CheckOut > button {
+  width: 500px;
+  height: 40px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

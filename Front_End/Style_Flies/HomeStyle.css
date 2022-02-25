@@ -142,7 +142,10 @@ body {
 #Dif4 > a > img {
   margin-top: 60px;
 }
-#More_But > button {
+#More_But > a {
+  text-decoration: none;
+}
+#More_But > a > button {
   color: white;
   background-color: black;
   border: 1px solid black;
@@ -151,6 +154,7 @@ body {
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 #More_But {
   padding-bottom: 30px;

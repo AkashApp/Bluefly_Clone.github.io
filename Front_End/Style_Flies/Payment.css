@@ -1,0 +1,61 @@
+#Main_Div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#Div > img {
+  width: 60px;
+}
+#Pay_Div {
+  width: 800px;
+  padding-left: 50px;
+  background-color: whitesmoke;
+}
+#Te {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card {
+  width: 740px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+}
+#Card_Number > input {
+  width: 600px;
+  height: 30px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#Date {
+  display: flex;
+}
+#Date > input:nth-child(1) {
+  width: 290px;
+  height: 30px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#Date > input:nth-child(2) {
+  width: 290px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#final {
+  text-align: center;
+}
+#final > button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  width: 150px;
+  height: 60px;
+  border-radius: 5%;
+}

@@ -1,0 +1,64 @@
+#Main_Div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#Address {
+  width: 800px;
+  padding-left: 50px;
+  background-color: whitesmoke;
+}
+#Product_Info {
+  width: 400px;
+  margin-left: 30px;
+}
+#Address > div:nth-child(2) {
+  display: flex;
+}
+#Address > div:nth-child(2) > h2 {
+  margin-right: 350px;
+}
+#Address > div:nth-child(3) > input {
+  width: 740px;
+  height: 40px;
+}
+#Address > div:nth-child(5) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+#names > input {
+  width: 365px;
+  height: 40px;
+}
+#Add_Div > input {
+  margin-top: 30px;
+  width: 740px;
+  height: 40px;
+}
+#Country > input {
+  margin-top: 30px;
+  width: 239px;
+  height: 40px;
+}
+#Mob > input {
+  margin-top: 30px;
+  width: 740px;
+  height: 40px;
+}
+#Move {
+  text-align: center;
+}
+#Move > button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  width: 150px;
+  height: 60px;
+  border-radius: 5%;
+}
+#Div > img {
+  width: 60px;
+}
