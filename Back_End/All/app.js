@@ -1,6 +1,6 @@
 const express= require("express");
-const Connect= require("../Configs/DbConnect");
-const productContro= require("../Controllers/productController");
+const Connect= require("./Configs/DbConnect.js");
+const productContro= require("./Controllers/productController");
 
 const app= express();
 
