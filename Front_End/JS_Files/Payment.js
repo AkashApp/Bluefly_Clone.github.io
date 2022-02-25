@@ -39,7 +39,7 @@ function Product_show(prod_data){
         let But= document.getElementById("continue");
         But.addEventListener("click", ()=>{
             alert("Thank you for shopping");
-            window.location.href=`../HTML_Files/index.html`;
+            window.location.href=`../../index.html`;
         })
 
         Product_Info.append(Div);
