@@ -266,7 +266,7 @@ function Single_show(prod_data){
 
 async function Get_Single(Single){
     try{
-        let response = await fetch(`http://localhost:7492/product?id=${Single}`);
+        let response = await fetch(`https://blueflybackend.herokuapp.com/product?id=${Single}`);
         let data= await response.json();
         console.log("data:",data);
         
