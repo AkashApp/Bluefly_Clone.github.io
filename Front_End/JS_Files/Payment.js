@@ -4,7 +4,7 @@ let Get_Pro= localStorage.getItem("Cart_Id");
 
 async function GetProd(Single){
     try{
-        let response = await fetch(`http://localhost:7492/product?id=${Single}`);
+        let response = await fetch(`https://blueflybackend.herokuapp.com/product?id=${Single}`);
         let data= await response.json();
         console.log("data:",data);
         

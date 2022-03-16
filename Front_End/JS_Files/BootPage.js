@@ -1,4 +1,6 @@
 let Products_Div=document.getElementById("Products_Div");
+// https://blueflybackend.herokuapp.com/
+// http://localhost:7492
 
 
 let count_Casual=0;
@@ -7,7 +9,7 @@ Casual.addEventListener("click", async()=>{
     count_Casual++;
     if(count_Casual%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?category=Casual`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?category=Casual`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -19,7 +21,7 @@ Casual.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -37,7 +39,7 @@ Dress.addEventListener("click", async()=>{
     count_Dress++;
     if(count_Dress%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?category=Dress`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?category=Dress`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -49,7 +51,7 @@ Dress.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -67,7 +69,7 @@ Antonio.addEventListener("click", async()=>{
     count_brand++;
     if(count_brand%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?brand=Antonio`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?brand=Antonio`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -79,7 +81,7 @@ Antonio.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -97,7 +99,7 @@ BALENCIAGA.addEventListener("click", async()=>{
     count_BALENCIAGA++;
     if(count_BALENCIAGA%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?brand=BALENCIAGA`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?brand=BALENCIAGA`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -109,7 +111,7 @@ BALENCIAGA.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             
@@ -127,7 +129,7 @@ Black.addEventListener("click", async()=>{
     count_Black++;
     if(count_Black%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?color=Black`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?color=Black`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -138,7 +140,7 @@ Black.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -155,7 +157,7 @@ Gray.addEventListener("click", async()=>{
     count_Gray++;
     if(count_Gray%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?color=Gray`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?color=Gray`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -166,7 +168,7 @@ Gray.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -183,7 +185,7 @@ Brown.addEventListener("click", async()=>{
     count_Brown++;
     if(count_Brown%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?color=Brown`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?color=Brown`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -194,7 +196,7 @@ Brown.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -211,7 +213,7 @@ B.addEventListener("click", async()=>{
     count_B++;
     if(count_B%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?shoe_width=B`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?shoe_width=B`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -222,7 +224,7 @@ B.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -239,7 +241,7 @@ C.addEventListener("click", async()=>{
     count_C++;
     if(count_C%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?shoe_width=C`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?shoe_width=C`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -250,7 +252,7 @@ C.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -267,7 +269,7 @@ E.addEventListener("click", async()=>{
     count_E++;
     if(count_E%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?shoe_width=E`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?shoe_width=E`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -278,7 +280,7 @@ E.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -295,7 +297,7 @@ New.addEventListener("click", async()=>{
     count_New++;
     if(count_New%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?product_condition=New`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?product_condition=New`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -306,7 +308,7 @@ New.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -323,7 +325,7 @@ Preowned.addEventListener("click", async()=>{
     count_Preowned++;
     if(count_Preowned%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?product_condition=Preowned-Fair`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?product_condition=Preowned-Fair`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -334,7 +336,7 @@ Preowned.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -360,7 +362,7 @@ Price_Value.addEventListener("click", async()=>{
         high=High_Value.value;
     }
     try {
-        let response = await fetch(`http://localhost:7492/product?pricelow=${low}&pricehigh=${high}`);
+        let response = await fetch(`https://blueflybackend.herokuapp.com/product?pricelow=${low}&pricehigh=${high}`);
         let data= await response.json();
         console.log("data:",data);
         Product_show(data);
@@ -383,7 +385,7 @@ Price_Dis.addEventListener("click", async()=>{
         high=High_Dis.value;
     }
     try {
-        let response = await fetch(`http://localhost:7492/product?discountlow=${low}&discounthigh=${high}`);
+        let response = await fetch(`https://blueflybackend.herokuapp.com/product?discountlow=${low}&discounthigh=${high}`);
         let data= await response.json();
         console.log("data:",data);
         Product_show(data);
@@ -398,7 +400,7 @@ Trending.addEventListener("click", async()=>{
     count_Trending++;
     if(count_Trending%2 != 0){
         try{
-            let response = await fetch(`http://localhost:7492/product?tag=Trending`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product?tag=Trending`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -409,7 +411,7 @@ Trending.addEventListener("click", async()=>{
     }
     else{
         try{
-            let response = await fetch(`http://localhost:7492/product/all`);
+            let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
             let data= await response.json();
             console.log("data:",data);
             Product_show(data);
@@ -422,7 +424,7 @@ Trending.addEventListener("click", async()=>{
 
 async function GetProducts(){
     try{
-        let response = await fetch(`http://localhost:7492/product/all`);
+        let response = await fetch(`https://blueflybackend.herokuapp.com/product/all`);
         let data= await response.json();
         console.log("data:",data);
         
