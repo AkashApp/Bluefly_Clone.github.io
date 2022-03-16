@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 app.use("/product", productContro);
 
-app.listen(7492, async(req,res)=>{
+app.listen(process.env.PORT||7492, async(req,res)=>{
     try {
         await Connect();
         console.log("Listening On Port 7492");
