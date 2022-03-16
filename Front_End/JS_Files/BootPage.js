@@ -433,10 +433,17 @@ async function GetProducts(){
     }
 }
 
-function Product_show(prod_data,index){
+
+let Clear_Filter=document.getElementById("Clear_Filter");
+Clear_Filter.addEventListener("click", ()=>{
+    location.reload();
+});
+
+function Product_show(prod_data){
     Products_Div.innerHTML=null;
+    console.log(prod_data);
     prod_data.forEach(function(prod){
-        let Div= document.createElement("div");
+        let Greate= document.createElement("div");
         let Text_Div= document.createElement("div");
         
         let Img= document.createElement("img");
@@ -464,21 +471,17 @@ function Product_show(prod_data,index){
 
         Text_Div.append(ExPrice, price, Save);
 
-        Div.append(Img,brand,description,Text_Div);
+        Greate.append(Img,brand,description,Text_Div);
+        
 
-        Div.addEventListener("click", ()=>{
+        Greate.addEventListener("click", ()=>{
             JSON.stringify(localStorage.setItem("Prod_Id", prod._id));
              window.location.href=`../HTML_Files/Single_Product_Page.html`;
         });
 
         // console.log(prod._id);
 
-        Products_Div.append(Div);
+        Products_Div.append(Greate);
     });
 }
 GetProducts();
-
-let Clear_Filter=document.getElementById("Clear_Filter");
-Clear_Filter.addEventListener("click", ()=>{
-    location.reload();
-});
