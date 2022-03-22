@@ -16,4 +16,16 @@
 <img src="https://user-images.githubusercontent.com/93377428/159420399-6b38b9b5-6edb-47dd-ae49-738f8a4b2b8e.png" />
 </br>
 <h4>3. Product Page (Shoes):-</h4>
+<img src="https://user-images.githubusercontent.com/93377428/159423602-93da4275-0749-4666-94be-52449de470c9.png" />
+</br>
+<h4>4. Single Product Page (Shoes):-</h4>
 <img src="https://user-images.githubusercontent.com/93377428/159422583-b0a1fac6-7203-4d42-ba18-3a6fbbeef54b.png" />
+</br>
+<h4>5. Cart Page:-</h4>
+<img src="https://user-images.githubusercontent.com/93377428/159423911-1d9f0968-a612-46a6-a896-90184b85a3e6.png" />
+</br>
+<h4>6. Shipping Page:-</h4>
+<img src="https://user-images.githubusercontent.com/93377428/159424150-07a28fcb-4b5f-45b4-93ee-cf6db44e808b.png" />
+</br>
+<h4>7. Payment Page:-</h4>
+<img src="https://user-images.githubusercontent.com/93377428/159424328-a969e6f4-6bc9-4bb2-81ea-dcd4f580e12a.png" />
